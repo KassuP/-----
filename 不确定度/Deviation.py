@@ -17,7 +17,7 @@ def calculate_standard_deviation():
     # 计算x的平均值
     mean = sum(data) / n
     
-    # Calculate sum of squared differences
+    # 计算实验方差
     sum_sq_diff = sum((x - mean) ** 2 for x in data)
     
     # 计算实验标准差
