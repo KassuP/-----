@@ -32,7 +32,7 @@ def calculate_Body():
         REE = 10*weight + 6.25*height1 -5*age +5
     else :
         REE = 10*weight + 6.25*height1 -5*age -161
-        
+    
     print(f"您的BMI是: {BMI:.2f}")
     print(f"您的体脂率是: {Bodyfat_fraction:.2f}%")
     print(f"您的基础代谢率REE是: {REE:.2f}Kcal")
